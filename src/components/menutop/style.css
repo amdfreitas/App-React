@@ -1,0 +1,39 @@
+.menucontainer {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+.menucontainer div{
+    height: auto;
+    margin: 0.9%;
+}
+.menuitens {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.menuitens li {
+    display: inline;
+    margin: 5px;
+}
+
+.menuitens li a {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.menuitens li :hover{
+    
+    background-color: white;
+    color: rgb(176, 15, 15);
+    transition: 8ms;
+
+    
+}
