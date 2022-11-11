@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 function Menutop() {
@@ -26,9 +27,9 @@ function Menutop() {
         <ul className="menuitens">
           {listMenu.map((iten) => (
             <li>
-              <a href={iten.rota} key={iten.id}>
+              <Link to={iten.rota} key={iten.id}>
                 {iten.nome}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
