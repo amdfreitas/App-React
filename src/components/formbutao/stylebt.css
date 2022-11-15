@@ -1,0 +1,21 @@
+.classButton{
+
+    width: 12em;
+    height: 4em;
+    margin: 10px;
+    border: 3px solid;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.classButton:hover{
+    background-color: rgb(119, 119, 210);
+}
+
+.btgconfig{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+.classform{
+    width: 700px;
+    margin-top: 20px;
+    max-height: 30%;
+    
+}
+
+.classformconteiner{
+    display: flex;
+    justify-content: center;
+}

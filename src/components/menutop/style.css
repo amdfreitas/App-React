@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10%;
+    max-height: 10%;
     width: 100%;
 }
 .menucontainer div{

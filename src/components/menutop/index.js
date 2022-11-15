@@ -26,10 +26,8 @@ function Menutop() {
       <div>
         <ul className="menuitens">
           {listMenu.map((iten) => (
-            <li>
-              <Link to={iten.rota} key={iten.id}>
-                {iten.nome}
-              </Link>
+            <li key={iten.id}>
+              <Link to={iten.rota}>{iten.nome}</Link>
             </li>
           ))}
         </ul>

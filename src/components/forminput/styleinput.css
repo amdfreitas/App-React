@@ -1,0 +1,23 @@
+.classInput{
+    border-radius: 20px;
+    border: 3px solid beige;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: larger;
+    transition: 0.5s;
+    outline: none;
+}
+
+.classLabel{
+    font-size: large;
+    margin: 10px 5px 10px 5px;
+}
+
+.classInput:focus{
+    border: 3px solid rgb(38, 89, 191);
+    
+}
