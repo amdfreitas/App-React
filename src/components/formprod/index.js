@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import FormButao from '../formbutao';
-import FormInput from '../forminput';
+import FormButao from './formbutao';
+import FormInput from './forminput';
 import './styleform.css';
 
 function FormProduto() {

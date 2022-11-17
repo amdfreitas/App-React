@@ -10,6 +10,7 @@ function FormInput(props) {
         className="classInput"
         name={props.cdid}
         onChange={props.event}
+        placeholder={props.cpname}
         min="0"
       />
     </label>
